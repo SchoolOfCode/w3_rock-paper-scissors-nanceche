@@ -1,0 +1,72 @@
+body {
+  background-image: url("images/1.jpeg");
+  color: white;
+}
+
+h1 {
+  text-align: center;
+}
+
+img {
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  border: 1px;
+  border-radius: 4px;
+  padding: 5px;
+  width: 150px;
+  height: 150px;
+  cursor: pointer;
+}
+
+.points {
+  display: flex;
+  justify-content: space-evenly;
+
+  flex-direction: row;
+  font-size: 28px;
+}
+.options {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+.player-score {
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+.computer-score {
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+.draws-score {
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+.games {
+  align-items: center;
+  flex-flow: column;
+  justify-content: center;
+}
+
+#rock:hover {
+  background-color: turquoise;
+}
+
+#scissors:hover {
+  background-color: turquoise;
+}
+
+#paper:hover {
+  background-color: turquoise;
+}
+p {
+  font-size: 28px;
+}
+.points {
+  font: size 28px;
+}

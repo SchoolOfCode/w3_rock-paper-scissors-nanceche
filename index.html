@@ -3,7 +3,41 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="styles.css" />
-    <title>Rock, Paper, Scissors</title>
+    <title>Rock,Paper,Scissors</title>
   </head>
-  <body></body>
+  <body>
+    <h1>ROCK  PAPER  SCISSORS</h1>
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required maxlength="10">
+    <div class="options">
+      <img id="rock" src="images/rock3.jpeg" alt="rock">
+      <img id="paper"src="images/crumpledpaper.jpeg" alt="paper">
+      <img id="scissors" src="images/scissors2.webp" alt="scissors">
+    </div>
+
+    <div class="points">
+      <div class="player-score">
+        <p>Player 1</p>
+        <span id="player1-score">0</span>
+      </div>
+      <div class="computer-score">
+        <p>Computer</p>
+        <span id="computer-score">0</span>
+      </div>
+      <div class="draws">
+        <p>Draws</p>
+        <span id="draws-score">0</span>
+      </div>
+      <div class="games">
+        <p>Games</p>
+        <span id= "games">0</span>
+      </div>
+      
+    </div>
+    <button class="button">Stop</button>
+    </div>
+    <script src="main.js"></script>
+  </div>
+  </body>
 </html>
