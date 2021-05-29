@@ -1,0 +1,17 @@
+body {
+  background-color: #f7e1bf;
+}
+section {
+  flex-direction: column;
+  height: 80vh;
+  border: 5px solid rgb(122, 100, 122);
+  width: 55%;
+  margin-top: 100px;
+  display: flex;
+  justify-content: space-around;
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+}
+
+.rock {
+}
