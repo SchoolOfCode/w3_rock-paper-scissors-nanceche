@@ -4,8 +4,8 @@ body {
 section {
   flex-direction: column;
   height: 80vh;
-  border: 5px solid rgb(122, 100, 122);
-  width: 55%;
+  /* border: 5px solid rgb(122, 100, 122); */
+  width: 35%;
   margin-top: 100px;
   display: flex;
   justify-content: space-around;
@@ -32,14 +32,14 @@ main {
 .button-container {
   display: flex;
   justify-content: center;
-  border: 5px solid darkblue;
+  /* border: 5px solid darkblue; */
   height: 80vh;
   width: 45%;
-  margin-top: 100px;
+  margin-top: 460px;
 }
 button {
-  height: 6vh;
-  width: 20vh;
+  height: 8vh;
+  width: 40vh;
   margin: 150px 10px;
   background: linear-gradient(to right, #262d3d, #53565b);
   color: white;
