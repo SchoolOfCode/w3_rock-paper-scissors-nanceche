@@ -1,0 +1,9 @@
+body {
+  background-color: #f7e1bf;
+}
+
+.image-container {
+  display: flex;
+  border: solid black 2px;
+  align-content: flex-start;
+}
