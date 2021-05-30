@@ -13,5 +13,35 @@ section {
   font-size: 80px;
 }
 
-.rock {
+.rock,
+.paper,
+.scissors {
+  background: linear-gradient(
+    to right,
+    #eb5757,
+    /* #ec606c,*/ #4364ef,
+    #41d589
+  );
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+main {
+  display: flex;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  border: 5px solid darkblue;
+  height: 80vh;
+  width: 45%;
+  margin-top: 100px;
+}
+button {
+  height: 6vh;
+  width: 20vh;
+  margin: 150px 10px;
+  background: linear-gradient(to right, #262d3d, #53565b);
+  color: white;
+  border-radius: 15px;
 }
